@@ -13,7 +13,6 @@ class GoalsVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
@@ -23,9 +22,10 @@ class GoalsVC: UIViewController {
         //goal.goalCompletionValue = Int32(exactly: 12.0)
     }
     @IBAction func addGoalBtnPressed(_ sender: Any) {
-        print("Button was pressed")
-    } 
-    
+        //print("Button was pressed")
+        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else { return }
+        presentDetail(createGoalVC)
+    }
 }
 
 extension GoalsVC: UITableViewDelegate, UITableViewDataSource {
