@@ -9,6 +9,9 @@
 import UIKit
 import CoreData
 
+//creating appDelegate which can be accessed from anywhere (ie public) to be used in save() function in FinishGoalVC to get managed object context. 
+let appDelegate = UIApplication.shared.delegate as? AppDelegate
+
 class GoalsVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
