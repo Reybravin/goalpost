@@ -311,7 +311,7 @@
                         <outlet property="goalTextView" destination="KsL-8b-Jc2" id="Z3M-Ci-ihn"/>
                         <outlet property="longTermBtn" destination="yH8-Lk-Pp6" id="o2Y-L9-dru"/>
                         <outlet property="nextBtn" destination="5P8-gR-18f" id="uA1-sZ-M6r"/>
-                        <outlet property="shotTermBtn" destination="UZR-HP-Aur" id="iqQ-lV-4MJ"/>
+                        <outlet property="shortTermBtn" destination="UZR-HP-Aur" id="iqQ-lV-4MJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="It3-Nv-5vt" userLabel="First Responder" sceneMemberID="firstResponder"/>
